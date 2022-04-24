@@ -1,0 +1,137 @@
+/* Typography */
+.head1__bold {
+    font-family: var(--font-headline);
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: auto;
+}
+.head1__regular {
+    font-family: var(--font-headline);
+    font-size: 6rem;
+    line-height: auto;
+}
+.head2 {
+    font-family: var(--font-headline);
+    font-weight: bold;
+    font-size: 3.4rem;
+    line-height: 130%;
+}
+.head3 {
+    font-family: var(--font-headline);
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+}
+.head4 {
+    font-family: var(--font-headline);
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 2.8rem;
+}
+.head5 {
+    font-family: var(--font-headline);
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: auto;
+}
+.menutext {
+    font-family: var(--font-headline);
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.additional {
+    font-family: var(--font-headline);
+    font-size: 1.2rem;
+    line-height: auto;
+}
+.subtitle__bold {
+    font-family: var(--font-text);
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+}
+.subtitle__regular {
+    font-family: var(--font-text);
+    font-size: 2.4rem;
+    line-height: 3.8rem;
+}
+.main__bold {
+    font-family: var(--font-text);
+    font-weight: bold;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.main__regular {
+    font-family: var(--font-text);
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+}
+.small__bold {
+    font-family: var(--font-text);
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+.small__regular {
+    font-family: var(--font-text);
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+}
+
+/* Button */
+.button--blue {
+    background-color: var(--color-blue);
+    color: var(--color-light);
+    padding: 1.8rem 3.4rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.button__light {
+    background-color: var(--color-light);
+    color: var(--color-blue);
+    padding: 1.8rem 3.4rem;
+    border-radius: 0.5rem;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+/* Text Field */
+.textfield__label {
+    color: var(--color-dark);
+}
+
+.textfield__input {
+    color: var(--color-dark);
+    border: none;
+    border-bottom: 1px solid var(--color-one);
+}
+
+.textfield__label .textfield__input:active {
+    color: var(--color-blue);
+}
+
+.textfield__input:active {
+    border-bottom: 1px solid var(--color-blue);
+}
+
+/* Pricing Card */
+
+/* default */
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    min-height: 100vh;
+}
