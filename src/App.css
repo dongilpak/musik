@@ -3,12 +3,10 @@
     font-family: var(--font-headline);
     font-weight: bold;
     font-size: 6rem;
-    line-height: auto;
 }
 .head1__regular {
     font-family: var(--font-headline);
     font-size: 6rem;
-    line-height: auto;
 }
 .head2 {
     font-family: var(--font-headline);
@@ -32,18 +30,17 @@
     font-family: var(--font-headline);
     font-weight: bold;
     font-size: 1.6rem;
-    line-height: auto;
 }
 .menutext {
     font-family: var(--font-headline);
     font-weight: bold;
     font-size: 1.4rem;
     line-height: 2rem;
+    text-transform: uppercase;
 }
 .additional {
     font-family: var(--font-headline);
     font-size: 1.2rem;
-    line-height: auto;
 }
 .subtitle__bold {
     font-family: var(--font-text);
@@ -80,24 +77,23 @@
 }
 
 /* Button */
-.button--blue {
-    background-color: var(--color-blue);
-    color: var(--color-light);
+.button__basic {
     padding: 1.8rem 3.4rem;
     border-radius: 0.5rem;
     border: none;
     outline: none;
     cursor: pointer;
+    text-transform: uppercase;
+}
+
+.button__blue {
+    background-color: var(--color-blue);
+    color: var(--color-light);
 }
 
 .button__light {
     background-color: var(--color-light);
     color: var(--color-blue);
-    padding: 1.8rem 3.4rem;
-    border-radius: 0.5rem;
-    border: none;
-    outline: none;
-    cursor: pointer;
 }
 
 /* Text Field */
@@ -122,15 +118,9 @@
 /* Pricing Card */
 
 /* default */
-.flex__center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .app__wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 
     min-height: 100vh;

@@ -24,9 +24,9 @@ import singer01 from '../assets/singer01.png';
 import singer02 from '../assets/singer02.png';
 import singer03 from '../assets/singer03.png';
 import singer04 from '../assets/singer04.png';
-import testAbatar01 from '../assets/testAbatar01.png';
-import testAbatar02 from '../assets/testAbatar02.png';
-import testAbatar03 from '../assets/testAbatar03.png';
+import testAvatar01 from '../assets/testAvatar01.png';
+import testAvatar02 from '../assets/testAvatar02.png';
+import testAvatar03 from '../assets/testAvatar03.png';
 
 const stores = {
     about,
@@ -55,9 +55,9 @@ const stores = {
     singer02,
     singer03,
     singer04,
-    testAbatar01,
-    testAbatar02,
-    testAbatar03,
+    testAvatar01,
+    testAvatar02,
+    testAvatar03,
 };
 
 export default stores;

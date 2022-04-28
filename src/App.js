@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { Navbar } from './components';
-
 import './App.css';
 import {
     About,
@@ -18,7 +16,6 @@ import {
 
 const App = () => (
     <div>
-        <Navbar />
         <Header />
         <Category />
         <About />

@@ -1,0 +1,64 @@
+.header {
+    width: 100%;
+    min-height: 100vh;
+    background: url('../../assets/hero.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.header-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__contents {
+    width: 97rem;
+    margin: 10.5rem auto 12.2rem;
+    color: var(--color-light);
+    text-align: center;
+}
+
+.header__title {
+    text-transform: capitalize;
+    margin-bottom: 4rem;
+}
+
+.header__title span {
+    color: var(--color-lightRed);
+}
+
+.contents__buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.contents__buttons button {
+    margin-right: 4rem;
+}
+
+.play-video {
+    display: flex;
+    align-items: center;
+}
+
+.play-video span {
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+
+.header__count {
+    margin-bottom: 5rem;
+}
+
+.header__count p {
+    font-size: 14.4rem;
+    font-family: var(--font-headline);
+    font-weight: bold;
+    text-shadow: -1px 0 var(--color-light), 0 1px var(--color-light),
+        1px 0 var(--color-light), 0 -1px var(--color-light);
+    mix-blend-mode: screen;
+}

@@ -1,0 +1,41 @@
+.navbar {
+    width: 100%;
+    height: 12rem;
+}
+
+.navbar-box {
+    width: 117rem;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navbar-logo img {
+    width: 12.5rem;
+}
+
+.navbar-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links li {
+    margin-right: 4rem;
+    cursor: pointer;
+    color: var(--color-light);
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links button {
+    margin-left: 1rem;
+}
