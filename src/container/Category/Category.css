@@ -1,0 +1,91 @@
+.category__title {
+    margin-left: 41.5rem;
+    margin-bottom: 6rem;
+}
+
+.category__title span {
+    color: var(--color-blue);
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.category-list li {
+    width: 37rem;
+    height: 32rem;
+    margin: 0 1.5rem;
+    border-radius: 2.4rem;
+    position: relative;
+    transform-style: preserve-3d;
+}
+
+.category-list li::before {
+    position: absolute;
+    width: 37rem;
+    height: 32rem;
+    content: '';
+    transform: translateZ(-1px);
+    border-radius: 2.4rem;
+}
+
+.category-pop::before {
+    background-color: var(--color-two);
+    opacity: 10%;
+}
+.category-folk::before {
+    background-color: var(--color-red);
+    opacity: 10%;
+}
+.category-instrumental::before {
+    background-color: var(--color-blue);
+    opacity: 1;
+}
+.category-rock::before {
+    background-color: var(--color-four);
+    opacity: 10%;
+}
+.category-jazz::before {
+    background-color: var(--color-seven);
+    opacity: 10%;
+}
+
+.category-instrumental {
+    color: var(--color-light);
+}
+
+.category-box {
+    width: 19rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 9rem;
+    margin-left: 6rem;
+}
+
+.category-name {
+    margin: 1rem 0;
+}
+
+.category-pop .category-icon {
+    color: var(--color-two);
+}
+.category-folk .category-icon {
+    color: var(--color-red);
+}
+.category-rock .category-icon {
+    color: var(--color-four);
+}
+.category-jazz .category-icon {
+    color: var(--color-seven);
+}
+
+.category-icon {
+    font-size: 4rem;
+}
+
+.category-desc {
+    opacity: 0.7;
+}
