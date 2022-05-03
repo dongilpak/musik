@@ -13,12 +13,14 @@
     font-weight: bold;
     font-size: 3.4rem;
     line-height: 130%;
+    text-transform: capitalize;
 }
 .head3 {
     font-family: var(--font-headline);
     font-weight: bold;
     font-size: 2.4rem;
     line-height: 3.8rem;
+    text-transform: capitalize;
 }
 .head4 {
     font-family: var(--font-headline);
@@ -83,7 +85,6 @@
     border: none;
     outline: none;
     cursor: pointer;
-    text-transform: uppercase;
 }
 
 .button__blue {
@@ -123,7 +124,17 @@
     justify-content: center;
     align-items: center;
 
-    max-width: 192rem;
+    max-width: 117rem;
     min-height: 100vh;
     margin: 0 auto;
+}
+
+.app__wrapper--img {
+    flex: 1;
+    width: 100%;
+}
+
+.app__wrapper--info {
+    flex: 1;
+    width: 100%;
 }
