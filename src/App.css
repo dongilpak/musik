@@ -97,6 +97,10 @@
     color: var(--color-blue);
 }
 
+.right-arrow {
+    font-size: 2.4rem;
+}
+
 /* Text Field */
 .textfield__label {
     color: var(--color-dark);
