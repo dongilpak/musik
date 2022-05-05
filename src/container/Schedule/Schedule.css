@@ -1,0 +1,167 @@
+.app__schedule {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+    position: relative;
+}
+
+.app__schedule::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, #381ddb, #ffffff);
+    opacity: 5%;
+}
+
+.schedule-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.schedule-tab {
+    width: 100%;
+    margin-bottom: 4rem;
+}
+
+.schedule__title {
+    margin-bottom: 6rem;
+}
+
+.schedule__day-tabs {
+    display: flex;
+    justify-content: space-between;
+}
+
+.schedule__day-tab h3 {
+    opacity: 0.5;
+}
+
+.schedule__day-tab p {
+    margin-bottom: 2rem;
+    opacity: 0.2;
+}
+
+.divider {
+    width: 37rem;
+    border: 4px solid var(--color-blue);
+    opacity: 0.1;
+}
+
+.schedule__day-tab.active h3 {
+    opacity: 1;
+}
+
+.schedule__day-tab.active p {
+    opacity: 0.5;
+}
+
+.schedule__day-tab.active .divider {
+    opacity: 1;
+}
+
+.schedule-contents {
+    width: 100%;
+}
+
+.schedule-contents table {
+    width: 100%;
+    border: 1px solid var(--color-one);
+    border-radius: 2.4rem;
+}
+
+.schedule-contents table td {
+    border-bottom: 1px solid var(--color-one);
+}
+
+.schedule-table__head {
+    height: 12rem;
+    position: relative;
+}
+
+.schedule-table__head::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-blue);
+    border-radius: 2.4rem 2.4rem 0 0;
+    opacity: 5%;
+    position: absolute;
+    z-index: 1;
+}
+
+.schedule-table__head tr {
+    position: relative;
+    z-index: 2;
+    text-align: left;
+}
+
+.schedule-table__head tr th:first-child {
+    padding-left: 4rem;
+    width: 27rem;
+}
+
+.schedule-table__head tr th:nth-child(2) {
+    padding: 0 3rem;
+    width: 41rem;
+}
+
+.schedule-table__head tr th:nth-child(3) {
+    width: 27rem;
+}
+
+.schedule__data td {
+    padding: 4rem 0;
+}
+
+.schedule__data .schedule-time {
+    padding-left: 4rem;
+    width: 27rem;
+    vertical-align: top;
+}
+
+.schedule__data .schedule-content-info {
+    padding: 4rem 3rem;
+    width: 41rem;
+    vertical-align: top;
+}
+
+.schedule__data .schedule-speaker {
+    width: 27rem;
+}
+
+.speaker-box {
+    display: flex;
+    align-items: center;
+}
+
+.speaker-box:not(:last-child) {
+    margin-bottom: 3.2rem;
+}
+
+.speaker-img {
+    margin-right: 1rem;
+}
+
+.speaker-info p:last-child {
+    opacity: 0.5;
+}
+
+.schedule__data .schedule-status {
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.schedule-status.active {
+    color: var(--color-red);
+}
+
+.schedule-status span:last-child {
+    vertical-align: middle;
+    font-size: 2rem;
+}
