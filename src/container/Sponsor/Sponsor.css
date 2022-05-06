@@ -1,0 +1,24 @@
+.sponsor {
+    width: 117rem;
+    text-align: center;
+}
+
+.sponsor h2 {
+    margin-bottom: 6rem;
+}
+
+.sponsor-list {
+    margin-bottom: 8rem;
+    padding: 0 5rem;
+}
+
+.sponsor-list__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 6rem;
+}
+
+.sponsor-list__bottom {
+    display: flex;
+    justify-content: space-between;
+}

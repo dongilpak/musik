@@ -15,7 +15,7 @@ const TierItem = ({ tier, value, seat, color }) => (
                 <p className='main__regular'>Free Food & Coffee</p>
             </div>
             <button
-                className={`button__basic ${
+                className={`button__basic head5 ${
                     color === 'blue' ? 'button__blue' : 'button__light'
                 }`}
                 type='button'
