@@ -1,0 +1,88 @@
+.tiers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    min-height: 100vh;
+}
+
+.tiers-section {
+    max-width: 117rem;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tiers__title {
+    text-align: center;
+    margin-bottom: 6rem;
+}
+
+.tiers-contents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tier {
+    width: 37rem;
+    border: 1px solid var(--color-dark);
+    border-radius: 2rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.tier__roof {
+    width: 100%;
+    height: 0.4rem;
+}
+
+.tier--basic .tier__roof {
+    background-color: var(--color-dark);
+}
+
+.tier--standard .tier__roof {
+    background-color: var(--color-blue);
+}
+
+.tier--premium .tier__roof {
+    background-color: var(--color-red);
+}
+
+.tier__info {
+    margin: 3rem 0;
+}
+
+.tier__info .info__header {
+    margin-bottom: 3rem;
+}
+
+.tier--basic .info__header {
+    color: var(--color-dark);
+}
+
+.tier--standard .info__header {
+    color: var(--color-blue);
+}
+
+.tier--premium .info__header {
+    color: var(--color-red);
+}
+
+.tier__info .info__header h3 {
+    margin-bottom: 1.5rem;
+}
+
+.tier__info .info__desc {
+    margin-bottom: 3rem;
+}
+
+.tier--basic .info__desc p:not(:first-child) {
+    opacity: 0.5;
+}
+
+.tier--standard .info__desc p:last-child {
+    opacity: 0.5;
+}
+
+.tier__info .info__desc p:not(:last-child) {
+    margin-bottom: 1.5rem;
+}

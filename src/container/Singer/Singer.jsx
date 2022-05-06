@@ -6,7 +6,7 @@ import './Singer.css';
 
 const Singer = () => {
     return (
-        <div className='app__wrapper'>
+        <div className='app__wrapper singer'>
             <div className='singer-info'>
                 <div className='singer-info__box'>
                     <div className='singer__text'>
