@@ -1,6 +1,12 @@
 import { GiBagpipes, GiSaxophone, GiGuitar, GiTrumpet } from 'react-icons/gi';
-import { BsMusicPlayerFill, BsPlayCircle, BsClock } from 'react-icons/bs';
+import {
+    BsMusicPlayerFill,
+    BsPlayCircle,
+    BsClock,
+    BsHeart,
+} from 'react-icons/bs';
 import { BiCameraMovie } from 'react-icons/bi';
+import { FaRegComment } from 'react-icons/fa';
 import { images } from '.';
 
 const categories = [
@@ -119,6 +125,49 @@ const testimonials = [
     },
 ];
 
-const data = { categories, schedules, testimonials };
+const shots = [
+    {
+        img: images.insta01,
+        like: { value: '412', icon: <BsHeart /> },
+        comment: { value: '140', icon: <FaRegComment /> },
+        user: 'Lorem Ipsum Amet',
+        hashtag:
+            '#music #concert #conference #london #event #artist #dj #soundtrack #dance',
+    },
+    {
+        img: images.insta02,
+        like: { value: '412', icon: <BsHeart /> },
+        comment: { value: '140', icon: <FaRegComment /> },
+        user: 'Lorem Ipsum Amet',
+        hashtag:
+            '#music #concert #conference #london #event #artist #dj #soundtrack #dance',
+    },
+    {
+        img: images.insta03,
+        like: { value: '412', icon: <BsHeart /> },
+        comment: { value: '140', icon: <FaRegComment /> },
+        user: 'Lorem Ipsum Amet',
+        hashtag:
+            '#music #concert #conference #london #event #artist #dj #soundtrack #dance',
+    },
+    {
+        img: images.insta04,
+        like: { value: '412', icon: <BsHeart /> },
+        comment: { value: '140', icon: <FaRegComment /> },
+        user: 'Lorem Ipsum Amet',
+        hashtag:
+            '#music #concert #conference #london #event #artist #dj #soundtrack #dance',
+    },
+    {
+        img: images.insta05,
+        like: { value: '412', icon: <BsHeart /> },
+        comment: { value: '140', icon: <FaRegComment /> },
+        user: 'Lorem Ipsum Amet',
+        hashtag:
+            '#music #concert #conference #london #event #artist #dj #soundtrack #dance',
+    },
+];
+
+const data = { categories, schedules, testimonials, shots };
 
 export default data;
