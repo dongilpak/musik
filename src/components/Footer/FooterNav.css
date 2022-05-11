@@ -1,0 +1,40 @@
+.footerNav {
+    display: flex;
+    flex-direction: column;
+    width: 117rem;
+    margin: 0 auto;
+    color: var(--color-light);
+}
+
+.footer-logo {
+    margin-top: 4rem;
+}
+
+.footerNav__content {
+    display: flex;
+    justify-content: space-between;
+    margin: 5.5rem 0 3rem 0;
+}
+
+.footerNav-links {
+    display: flex;
+    list-style: none;
+}
+
+.footerNav-links li {
+    margin-right: 3rem;
+}
+
+.footerNav__socials {
+    display: flex;
+    list-style: none;
+}
+
+.footerNav__socials li {
+    margin-right: 3rem;
+    font-size: 3rem;
+}
+
+.footer__copyright {
+    opacity: 0.3;
+}

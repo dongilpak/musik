@@ -1,0 +1,30 @@
+.contactUs {
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-blue);
+}
+
+.contactUs__title {
+    margin: 12rem auto 8rem 8rem;
+    color: var(--color-light);
+}
+
+.contactUs__title p {
+    opacity: 0.7;
+}
+
+.contactUs__info {
+    margin-left: 8rem;
+    color: var(--color-light);
+}
+
+.contactUs__info > div:not(:last-child) {
+    margin-bottom: 4rem;
+}
+
+.contactUs__info-icon {
+    color: var(--color-lightRed);
+    font-size: 2.4rem;
+    vertical-align: middle;
+    margin-right: 0.8rem;
+}
